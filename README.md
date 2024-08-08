@@ -19,6 +19,9 @@ project-root/
 ## Step by Step
 1. Run npm install on both the client and server folder.
 2. Run npm start to run both client and server.
-3. Run XAMPP and start Apache and MySQL
-4. Import the auth_db.sql file to localhost/phpmyadmin
-5. Done.
+3. Run XAMPP and start Apache and MySQL.
+4. Import the auth_db.sql file to localhost/phpmyadmin.
+5. The Project should run after these steps.
+
+## Notes
+Google Auth and Facebook Auth is still being implemented.
