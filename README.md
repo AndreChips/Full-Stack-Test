@@ -1,8 +1,8 @@
 # Project Setup and Running Guide
 
-## Overview
-
-This guide provides step-by-step instructions for setting up and running the project, including installing dependencies, running the project, and setting up the database.
+## Project Overview
+Frontend Frameworks using React.js and Tailwind CSS
+Backend Frameworks using Express and xampp MySQL
 
 ## Prerequisites
 
@@ -25,3 +25,19 @@ project-root/
 
 ## Notes
 Google Auth and Facebook Auth is still being implemented.
+
+## Project Description ( According to Exams Task )
+1. Users are able to Sign Up ( Google Auth and Facebook in Progress ).
+2. Password Validation with these instructions.
+  ● contains at least one lower character
+  ● contains at least one upper character
+  ● contains at least one digit character
+  ● contains at least one special character
+  ● contains at least 8 characters
+3. Email Verification ( In Progress ).
+4. Users are able to Sign In ( Google Auth and Facebook in Progress ).
+5. User Profile where Users are able to see their email and are able to change their name.
+6. Reset Password where Users can change their password.
+7. Cookies and Logout where Users are still able to access dashboard without being logged out, and also users are able to log out.
+8. User Database Dashboard that displays timestamp of the user logged in, the number of times they logged in, and timestamp of the user logged out.
+9. User Statistics that displays the total number of users who have signed up, number of users with active sessions, and also average number of active sessions in the past 7 days.
