@@ -1,0 +1,28 @@
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJBY2VwIiwiZW1haWwiOiJhY2VwQGdtYWlsLmNvbSIsImlhdCI6MTcyMjk2Mzk0NSwiZXhwIjoxNzIyOTYzOTYwfQ.aF9X53B0l92v2XRBvLmLjezwm8Gn20Ri5z9apc7Khi0
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Acep",
+    "email": "acep@gmail.com",
+    "password": "12345",
+    "confirmPassword": "12345"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "acep@gmail.com",
+    "password": "12345" 
+}
+
+###
+GET http://localhost:5000/token
+
+###
+DELETE http://localhost:5000/logout
